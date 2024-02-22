@@ -36,7 +36,7 @@ public class C06Divide {
         boolean m = Double.isInfinite(k);
         System.out.println("m = " + m);
 
-        //infinuty 와 연산결과는 infinity or NaN
+        //infinity 와 연산결과는 infinity or NaN
         double n = g - g;
         System.out.println("n = " + n);
         double o = g - 1000000000000000000000000000.0;

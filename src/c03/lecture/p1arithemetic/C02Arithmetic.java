@@ -30,7 +30,7 @@ public class C02Arithmetic {
         System.out.println("c = " + c);//9
 
         int d = 10;
-        int d1 = d--;
+        int d1 = --d;
         System.out.println("d1 = " + d1);
         System.out.println("d = " + d);
 

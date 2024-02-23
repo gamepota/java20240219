@@ -14,6 +14,7 @@ public class p107num27 {
         } else {
             double result1 = z + 10;
             System.out.println("resul1t =" + result1);
+
         }
     }
 }

@@ -19,6 +19,7 @@ public class SwitchValueExample {
                 score1 = 60;
         }
         System.out.println("score1: " + score1);
+        // 자바 12 이후
 
         int score2 = switch (grade) {
             case "A" -> 100;
@@ -26,10 +27,10 @@ public class SwitchValueExample {
                 int result = 100 - 20;
                 yield result;
             }
-            default -> 60;
+            default -> 60; // 필수
         };
         System.out.println("score2: " + score2);
     }
-    
+
 }
 

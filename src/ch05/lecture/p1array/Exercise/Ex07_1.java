@@ -16,5 +16,6 @@ public class Ex07_1 {
             }
         }
         System.out.println("max = " + max);
+        
     }
 }

@@ -17,6 +17,8 @@ public class C05Array {
         arr[2] = 400;
         System.out.println(arr[2]);
 
-        // 존재하지 않는 index 사용불가
+
+        // 존재하지 않는 index 사용 불가
+        System.out.println(arr[3]); // 예외 발생
     }
 }

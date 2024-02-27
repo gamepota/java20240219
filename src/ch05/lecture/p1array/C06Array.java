@@ -2,7 +2,7 @@ package ch05.lecture.p1array;
 
 public class C06Array {
     public static void main(String[] args) {
-        // 배열 전쳉 탐색
+        // 배열 전체 탐색
 
         int[] arr = new int[]{7, 2, 10, 8, -2, 0, 9, 45, 23, 11};
         //for문 사용, 자주 같이 씀

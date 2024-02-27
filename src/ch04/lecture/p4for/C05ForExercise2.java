@@ -60,6 +60,8 @@ public class C05ForExercise2 {
         #####
 
          */
+        for (int a = 0; a < 5; a++) {
+        }
 
 
     }

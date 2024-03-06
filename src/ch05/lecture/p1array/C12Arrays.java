@@ -1,6 +1,8 @@
 package ch05.lecture.p1array;
 
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 
 public class C12Arrays {
     public static void main(String[] args) {
@@ -15,6 +17,8 @@ public class C12Arrays {
         // sort : 배열을 오름차순으로 정렬
         Arrays.sort(arr1);
         System.out.println(Arrays.toString(arr1));
+//        Arrays.sort(arr1, Collections.reverseOrder());
+
 
         // fill: 특정값으로 배열 채우기
 

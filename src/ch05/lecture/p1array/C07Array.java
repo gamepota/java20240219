@@ -1,9 +1,13 @@
 package ch05.lecture.p1array;
 
+import java.util.Arrays;
+
 public class C07Array {
     public static void main(String[] args) {
         // 배열 전체 탐색
         int[] arr = new int[]{6, 5, 1, 2, 3, 10};
+
+        System.out.println(Arrays.toString(arr));
 
         // 고전적인 방법
         for (int i = 0; i < arr.length; i++) {

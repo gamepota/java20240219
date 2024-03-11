@@ -20,7 +20,7 @@ class C01Parent {
 
 }
 
-// extends: 부모의 멤버를 이 클래스에 상속함
-class C01Child extends C01Parent {
 
+class C01Child extends C01Parent {
+// extends: 부모의 멤버를 이 클래스에 상속함
 }

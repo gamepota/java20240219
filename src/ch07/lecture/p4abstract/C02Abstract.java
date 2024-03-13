@@ -14,11 +14,11 @@ public class C02Abstract {
 abstract class C02Animal {
     //abstract method : 몸통 없는 메소드
     //하위 클래스가 꼭 재정의 되야함
-    // 추상메소그가 있다면 클래스는 꼭 추상 클래스
+    // 추상메소드가 있다면 클래스는 꼭 추상 클래스
     abstract public void breathe();
 }
 
-//rngus zmffotm(concrte class)
+//구현 클래스(concrte class)
 class C02fish extends C02Animal {
     @Override
     public void breathe() {

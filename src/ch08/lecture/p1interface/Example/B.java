@@ -4,4 +4,5 @@ package ch08.lecture.p1interface.Example;
 //A : 인터페이스
 //B : 구현클래스(구체클래스, concareat class)
 public class B implements A {
+
 }

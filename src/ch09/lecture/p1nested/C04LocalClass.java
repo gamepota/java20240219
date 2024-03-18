@@ -3,7 +3,7 @@ package ch09.lecture.p1nested;
 public class C04LocalClass {
     void method1() {
         final int j = 3;// effectively final
-        int k = 2; // 값 변경 하면 local class에서 모씀
+        int k = 2; // 값 변경 하면 local class에서 못씀
         class LocalClass {
             void method1() {
                 int i = 0;
